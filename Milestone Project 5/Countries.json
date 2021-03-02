@@ -1,0 +1,50 @@
+{
+    "results":[
+    {
+        "countryName": "France",
+        "capitalCity": "Paris",
+        "size":  "248,573 mi²",
+        "population": "67.06 million",
+        "currency": "Euro",
+        "language": "French",
+        "flagName": "flagFrance.jpg"
+    },
+    {
+        "countryName": "Italy",
+        "capitalCity": "Rome",
+        "size": "116,347 mi²",
+        "population":  "60.36 million",
+        "currency": "Euro",
+        "language": "Italian",
+        "flagName": "flagItaly.jpg"
+    },
+    {
+        "countryName": "Spain",
+        "capitalCity": "Madrid",
+        "size": "195,364 mi²",
+        "population": "46.94 million",
+        "currency": "Euro",
+        "language": "Spanish",
+        "flagName": "flagSpain.jpg"
+    },
+    {
+        "countryName": "United States",
+        "capitalCity": "Washington, D.C.",
+        "size": "3.797 million mi²",
+        "population":  "328.2 million",
+        "currency": "US Dollar",
+        "language": "English",
+        "flagName": "flagUS.jpg"
+    },
+    {
+        "countryName": "Greece",
+        "capitalCity": "Athens",
+        "size": "50,949 mi²",
+        "population": "10.72 million",
+        "currency": "Euro",
+        "language": "Greek",
+        "flagName": "flagGreece.jpg"
+    }
+    ]
+
+}
