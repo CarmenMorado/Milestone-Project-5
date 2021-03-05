@@ -12,9 +12,9 @@ class ViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        title = "Countries"
+        navigationController?.navigationBar.titleTextAttributes = [NSAttributedString.Key.font: UIFont(descriptor: UIFontDescriptor(name: "PartyLetPlain", size: 40), size: 40)]
         
-        navigationController?.navigationBar.prefersLargeTitles = true
+        title = "Countries"
 
         let url = Bundle.main.url(forResource: "Countries", withExtension: "json")!
                 
@@ -54,6 +54,7 @@ class ViewController: UITableViewController {
             vc.currency = country.currency
             vc.language = country.language
             vc.flagName = country.flagName
+            vc.funFact = country.funFact
             navigationController?.pushViewController(vc, animated: true)
         }
     }

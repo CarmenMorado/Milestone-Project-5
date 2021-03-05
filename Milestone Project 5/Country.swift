@@ -13,4 +13,5 @@ struct Country: Codable {
     var currency: String
     var language: String
     var flagName: String
+    var funFact: String
 }

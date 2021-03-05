@@ -7,7 +7,8 @@
         "population": "67.06 million",
         "currency": "Euro",
         "language": "French",
-        "flagName": "flagFrance.jpg"
+        "flagName": "flagFrance.jpg",
+        "funFact": ""
     },
     {
         "countryName": "Italy",
@@ -16,7 +17,8 @@
         "population":  "60.36 million",
         "currency": "Euro",
         "language": "Italian",
-        "flagName": "flagItaly.jpg"
+        "flagName": "flagItaly.jpg",
+        "funFact": ""
     },
     {
         "countryName": "Spain",
@@ -25,7 +27,8 @@
         "population": "46.94 million",
         "currency": "Euro",
         "language": "Spanish",
-        "flagName": "flagSpain.jpg"
+        "flagName": "flagSpain.jpg",
+        "funFact": "There are an estimated 440 million native Spanish speakers around the world, second only to Mandarin. But while Spanish is the official language of Spain, the regional languages of Catalan, Basque (Euskara) and Galician (Galego) all have official status in their respective regions."
     },
     {
         "countryName": "United States",
@@ -34,7 +37,8 @@
         "population":  "328.2 million",
         "currency": "US Dollar",
         "language": "English",
-        "flagName": "flagUS.jpg"
+        "flagName": "flagUS.jpg",
+        "funFact": ""
     },
     {
         "countryName": "Greece",
@@ -43,7 +47,8 @@
         "population": "10.72 million",
         "currency": "Euro",
         "language": "Greek",
-        "flagName": "flagGreece.jpg"
+        "flagName": "flagGreece.jpg",
+        "funFact": ""
     }
     ]
 
