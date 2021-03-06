@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		73017E8D25F2F0AE00440F05 /* UILabelExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73017E8C25F2F0AE00440F05 /* UILabelExtension.swift */; };
 		731D6BC225C393A8000CEF23 /* Countries.json in Resources */ = {isa = PBXBuildFile; fileRef = 731D6BC125C393A7000CEF23 /* Countries.json */; };
 		732F028625C0ED5A009EC288 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732F028525C0ED5A009EC288 /* AppDelegate.swift */; };
 		732F028825C0ED5A009EC288 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732F028725C0ED5A009EC288 /* SceneDelegate.swift */; };
@@ -25,6 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		73017E8C25F2F0AE00440F05 /* UILabelExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabelExtension.swift; sourceTree = "<group>"; };
 		731D6BC125C393A7000CEF23 /* Countries.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Countries.json; sourceTree = "<group>"; };
 		732F028225C0ED5A009EC288 /* Milestone Project 5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Milestone Project 5.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		732F028525C0ED5A009EC288 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 				732F028725C0ED5A009EC288 /* SceneDelegate.swift */,
 				732F028925C0ED5A009EC288 /* ViewController.swift */,
 				73EE5D3625EDB65600DFCEFD /* DetailViewController.swift */,
+				73017E8C25F2F0AE00440F05 /* UILabelExtension.swift */,
 				732F029E25C19605009EC288 /* Countries.swift */,
 				732F029B25C19476009EC288 /* Country.swift */,
 				732F028B25C0ED5A009EC288 /* Main.storyboard */,
@@ -174,6 +177,7 @@
 				732F028A25C0ED5A009EC288 /* ViewController.swift in Sources */,
 				732F028625C0ED5A009EC288 /* AppDelegate.swift in Sources */,
 				73EE5D3725EDB65600DFCEFD /* DetailViewController.swift in Sources */,
+				73017E8D25F2F0AE00440F05 /* UILabelExtension.swift in Sources */,
 				732F029F25C19605009EC288 /* Countries.swift in Sources */,
 				732F028825C0ED5A009EC288 /* SceneDelegate.swift in Sources */,
 			);

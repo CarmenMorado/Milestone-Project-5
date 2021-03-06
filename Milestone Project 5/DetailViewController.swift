@@ -42,14 +42,7 @@ class DetailViewController: UIViewController {
         capitalcityLabel = UILabel()
         capitalcityLabel.translatesAutoresizingMaskIntoConstraints = false
         capitalcityLabel.textAlignment = .left
-        //capitalcityLabel.text?.contains(<#T##element: Character##Character#>)
         capitalcityLabel.text = "Capital city: \(capitalCity!)"
-        //let s = "Eat @my shorts" as NSString
-        //let att = NSMutableAttributedString(string: s as String)
-        //let r = s.range(of: "@my", options: .regularExpression, range: NSMakeRange(0,s.length))
-        //if r.length > 0 {
-          //  att.addAttribute(NSAttributedString.Key.foregroundColor, value: UIColor.red, range: r)
-        //}
         capitalcityLabel.font = UIFont(name: capitalcityLabel.font.fontName, size: 25)
         view.addSubview(capitalcityLabel)
         
@@ -90,7 +83,6 @@ class DetailViewController: UIViewController {
         factLabel.numberOfLines = 9
         view.addSubview(factLabel)
         
-        
         NSLayoutConstraint.activate([
             countryFlag.topAnchor.constraint(equalTo: view.layoutMarginsGuide.topAnchor, constant: 20),
             countryFlag.leadingAnchor.constraint(equalTo: view.layoutMarginsGuide.leadingAnchor),
@@ -111,5 +103,33 @@ class DetailViewController: UIViewController {
             factLabel.trailingAnchor.constraint(equalTo: view.layoutMarginsGuide.trailingAnchor),
             factLabel.widthAnchor.constraint(equalToConstant: 400),
         ])
+        
+        if countryName == "United States" ||  countryName == "Greece" || countryName == "France" {
+            capitalcityLabel.highlight(searchText: "Capital city:", color: .blue)
+            sizeLabel.highlight(searchText: "Size:", color: .blue)
+            populationLabel.highlight(searchText: "Population:", color: .blue)
+            currencyLabel.highlight(searchText: "Currency:", color: .blue)
+            languageLabel.highlight(searchText: "Language:", color: .blue)
+            factLabel.highlight(searchText: "Fun fact:", color: .blue)
+        }
+        
+        if countryName == "Italy" {
+            capitalcityLabel.highlight(searchText: "Capital city:", color: .green)
+            sizeLabel.highlight(searchText: "Size:", color: .green)
+            populationLabel.highlight(searchText: "Population:", color: .green)
+            currencyLabel.highlight(searchText: "Currency:", color: .green)
+            languageLabel.highlight(searchText: "Language:", color: .green)
+            factLabel.highlight(searchText: "Fun fact:", color: .green)
+        }
+        
+        if countryName == "Spain" {
+            capitalcityLabel.highlight(searchText: "Capital city:", color: .red)
+            sizeLabel.highlight(searchText: "Size:", color: .red)
+            populationLabel.highlight(searchText: "Population:", color: .red)
+            currencyLabel.highlight(searchText: "Currency:", color: .red)
+            languageLabel.highlight(searchText: "Language:", color: .red)
+            factLabel.highlight(searchText: "Fun fact:", color: .red)
+        }
+        
     }
 }
