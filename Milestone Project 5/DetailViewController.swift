@@ -16,7 +16,7 @@ class DetailViewController: UIViewController {
     var language: String?
     var flagName: String?
     var funFact: String?
-    var capitalcityLabel: UILabel!
+    var capitalCityLabel: UILabel!
     var sizeLabel:  UILabel!
     var populationLabel:  UILabel!
     var currencyLabel: UILabel!
@@ -39,12 +39,12 @@ class DetailViewController: UIViewController {
         countryFlag.image = UIImage(named: flagName!)
         view.addSubview(countryFlag)
 
-        capitalcityLabel = UILabel()
-        capitalcityLabel.translatesAutoresizingMaskIntoConstraints = false
-        capitalcityLabel.textAlignment = .left
-        capitalcityLabel.text = "Capital city: \(capitalCity!)"
-        capitalcityLabel.font = UIFont(name: capitalcityLabel.font.fontName, size: 25)
-        view.addSubview(capitalcityLabel)
+        capitalCityLabel = UILabel()
+        capitalCityLabel.translatesAutoresizingMaskIntoConstraints = false
+        capitalCityLabel.textAlignment = .left
+        capitalCityLabel.text = "Capital city: \(capitalCity!)"
+        capitalCityLabel.font = UIFont(name: capitalCityLabel.font.fontName, size: 25)
+        view.addSubview(capitalCityLabel)
         
         sizeLabel = UILabel()
         sizeLabel.translatesAutoresizingMaskIntoConstraints = false
@@ -80,7 +80,7 @@ class DetailViewController: UIViewController {
         factLabel.text = "Fun fact: \(funFact!)"
         factLabel.textAlignment = .justified
         factLabel.font = UIFont(name: factLabel.font.fontName, size: 25)
-        factLabel.numberOfLines = 9
+        factLabel.numberOfLines = 10
         view.addSubview(factLabel)
         
         NSLayoutConstraint.activate([
@@ -88,9 +88,9 @@ class DetailViewController: UIViewController {
             countryFlag.leadingAnchor.constraint(equalTo: view.layoutMarginsGuide.leadingAnchor),
             countryFlag.trailingAnchor.constraint(equalTo: view.layoutMarginsGuide.trailingAnchor),
             countryFlag.heightAnchor.constraint(equalToConstant: 250),
-            capitalcityLabel.topAnchor.constraint(equalTo: countryFlag.bottomAnchor, constant: 20),
-            capitalcityLabel.leadingAnchor.constraint(equalTo: view.layoutMarginsGuide.leadingAnchor),
-            sizeLabel.topAnchor.constraint(equalTo: capitalcityLabel.bottomAnchor, constant: 10),
+            capitalCityLabel.topAnchor.constraint(equalTo: countryFlag.bottomAnchor, constant: 20),
+            capitalCityLabel.leadingAnchor.constraint(equalTo: view.layoutMarginsGuide.leadingAnchor),
+            sizeLabel.topAnchor.constraint(equalTo: capitalCityLabel.bottomAnchor, constant: 10),
             sizeLabel.leadingAnchor.constraint(equalTo: view.layoutMarginsGuide.leadingAnchor),
             populationLabel.topAnchor.constraint(equalTo: sizeLabel.bottomAnchor, constant: 10),
             populationLabel.leadingAnchor.constraint(equalTo: view.layoutMarginsGuide.leadingAnchor),
@@ -105,30 +105,30 @@ class DetailViewController: UIViewController {
         ])
         
         if countryName == "United States" ||  countryName == "Greece" || countryName == "France" {
-            capitalcityLabel.highlight(searchText: "Capital city:", color: .blue)
-            sizeLabel.highlight(searchText: "Size:", color: .blue)
-            populationLabel.highlight(searchText: "Population:", color: .blue)
-            currencyLabel.highlight(searchText: "Currency:", color: .blue)
-            languageLabel.highlight(searchText: "Language:", color: .blue)
-            factLabel.highlight(searchText: "Fun fact:", color: .blue)
+            capitalCityLabel.setAttribute(searchText: "Capital city:", font: UIFont(name: "HoeflerText-Italic", size: 30)!, color: .blue)
+            sizeLabel.setAttribute(searchText: "Size:", font: UIFont(name: "HoeflerText-Italic", size: 30)!, color: .blue)
+            populationLabel.setAttribute(searchText: "Population:", font: UIFont(name: "HoeflerText-Italic", size: 30)!, color: .blue)
+            currencyLabel.setAttribute(searchText: "Currency:", font: UIFont(name: "HoeflerText-Italic", size: 30)!, color: .blue)
+            languageLabel.setAttribute(searchText: "Language:", font: UIFont(name: "HoeflerText-Italic", size: 30)!, color: .blue)
+            factLabel.setAttribute(searchText: "Fun fact:", font: UIFont(name: "HoeflerText-Italic", size: 30)!, color: .blue)
         }
         
         if countryName == "Italy" {
-            capitalcityLabel.highlight(searchText: "Capital city:", color: .green)
-            sizeLabel.highlight(searchText: "Size:", color: .green)
-            populationLabel.highlight(searchText: "Population:", color: .green)
-            currencyLabel.highlight(searchText: "Currency:", color: .green)
-            languageLabel.highlight(searchText: "Language:", color: .green)
-            factLabel.highlight(searchText: "Fun fact:", color: .green)
+            capitalCityLabel.setAttribute(searchText: "Capital city:", font: UIFont(name: "HoeflerText-Italic", size: 30)!, color: .green)
+            sizeLabel.setAttribute(searchText: "Size:", font: UIFont(name: "HoeflerText-Italic", size: 30)!, color: .green)
+            populationLabel.setAttribute(searchText: "Population:", font: UIFont(name: "HoeflerText-Italic", size: 30)!, color: .green)
+            currencyLabel.setAttribute(searchText: "Currency:", font: UIFont(name: "HoeflerText-Italic", size: 30)!, color: .green)
+            languageLabel.setAttribute(searchText: "Language:", font: UIFont(name: "HoeflerText-Italic", size: 30)!, color: .green)
+            factLabel.setAttribute(searchText: "Fun fact:", font: UIFont(name: "HoeflerText-Italic", size: 30)!, color: .green)
         }
         
         if countryName == "Spain" {
-            capitalcityLabel.highlight(searchText: "Capital city:", color: .red)
-            sizeLabel.highlight(searchText: "Size:", color: .red)
-            populationLabel.highlight(searchText: "Population:", color: .red)
-            currencyLabel.highlight(searchText: "Currency:", color: .red)
-            languageLabel.highlight(searchText: "Language:", color: .red)
-            factLabel.highlight(searchText: "Fun fact:", color: .red)
+            capitalCityLabel.setAttribute(searchText: "Capital city:", font: UIFont(name: "HoeflerText-Italic", size: 30)!, color: .red)
+            sizeLabel.setAttribute(searchText: "Size:", font: UIFont(name: "HoeflerText-Italic", size: 30)!, color: .red)
+            populationLabel.setAttribute(searchText: "Population:", font: UIFont(name: "HoeflerText-Italic", size: 30)!, color: .red)
+            currencyLabel.setAttribute(searchText: "Currency:", font: UIFont(name: "HoeflerText-Italic", size: 30)!, color: .red)
+            languageLabel.setAttribute(searchText: "Language:", font: UIFont(name: "HoeflerText-Italic", size: 30)!, color: .red)
+            factLabel.setAttribute(searchText: "Fun fact:", font: UIFont(name: "HoeflerText-Italic", size: 30)!, color: .red)
         }
         
     }

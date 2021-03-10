@@ -7,8 +7,8 @@
         "population": "67.06 million",
         "currency": "Euro",
         "language": "French",
-        "flagName": "flagFrance.jpg",
-        "funFact": ""
+        "flagName": "FlagFrance.jpg",
+        "funFact": "The camera phone was invented in France in 1997 by an enterprising Parisian called Philippe Kahn - a very surprising France fact. The first photo he took was of his new-born daughter, Sophie, which he sent to his family and friends."
     },
     {
         "countryName": "Italy",
@@ -17,8 +17,8 @@
         "population":  "60.36 million",
         "currency": "Euro",
         "language": "Italian",
-        "flagName": "flagItaly.jpg",
-        "funFact": ""
+        "flagName": "FlagItaly.jpg",
+        "funFact": "The first modern pizza, with a tomato base, was made in the Campania region of Naples in 1860. Since then, it has become one of the most beloved foods on the planet. Although the humble pizza has gone through many changes over time, the world’s most delicious pizza can still be found in Naples today. Buon Appetito!"
     },
     {
         "countryName": "Spain",
@@ -27,7 +27,7 @@
         "population": "46.94 million",
         "currency": "Euro",
         "language": "Spanish",
-        "flagName": "flagSpain.jpg",
+        "flagName": "FlagSpain.jpg",
         "funFact": "There are an estimated 440 million native Spanish speakers around the world, second only to Mandarin. But while Spanish is the official language of Spain, the regional languages of Catalan, Basque (Euskara) and Galician (Galego) all have official status in their respective regions."
     },
     {
@@ -37,8 +37,8 @@
         "population":  "328.2 million",
         "currency": "US Dollar",
         "language": "English",
-        "flagName": "flagUS.jpg",
-        "funFact": ""
+        "flagName": "FlagUS.jpg",
+        "funFact": "The Gateway Arch, also known as the “Gateway to the West” is a monument in St. Louis, Missouri, and sits along the west bank of the Mississippi River. At 630 feet tall, the Gateway Arch claims the title of the tallest man-made monument in the US."
     },
     {
         "countryName": "Greece",
@@ -47,8 +47,8 @@
         "population": "10.72 million",
         "currency": "Euro",
         "language": "Greek",
-        "flagName": "flagGreece.jpg",
-        "funFact": ""
+        "flagName": "FlagGreece.jpg",
+        "funFact": "When you picture Greece, you might think of the whitewashed buildings and blue domed churches of the cities on the Mediterranean, but the majority of Greece is actually mountains. According to the Official Greece Tourism Site, Greece is one of the most mountainous countries in Europe!"
     }
     ]
 
